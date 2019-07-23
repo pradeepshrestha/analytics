@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:07.470
+When you decide how to spend your marketing budget,
+
+00:00:07.470 --> 00:00:10.290
+you want to focus on some of your best customers,
+
+00:00:10.290 --> 00:00:13.485
+customers who will stay with you for the long-term,
+
+00:00:13.485 --> 00:00:18.180
+who will continue to generate revenue for the company longer than say,
+
+00:00:18.180 --> 00:00:22.710
+a customer who finds a cheaper deal somewhere else and leaves your website.
+
+00:00:22.710 --> 00:00:26.850
+In other words, you want to identify your high-value customer,
+
+00:00:26.850 --> 00:00:30.330
+so that you can focus on bringing in more of these customers.
+
+00:00:30.330 --> 00:00:34.920
+Think of it this way: Your goal is for every dollar you spend on
+
+00:00:34.920 --> 00:00:37.920
+your marketing efforts to give you a higher rate of
+
+00:00:37.920 --> 00:00:42.300
+return and generate revenue multiple times over.
+
+00:00:42.300 --> 00:00:44.250
+How do you go about doing that?
+
+00:00:44.250 --> 00:00:48.990
+You use a business metric called lifetime value of a customer.
+
+00:00:48.990 --> 00:00:51.285
+To calculate lifetime value,
+
+00:00:51.285 --> 00:00:53.685
+let's cover a few key concepts.
+
+00:00:53.685 --> 00:00:58.730
+Again, make sure you make a note of the terminology and definitions.
+
+00:00:58.730 --> 00:01:00.844
+They are going to get slightly complicated,
+
+00:01:00.844 --> 00:01:03.730
+but we will walk through each of them one by one.
+
+00:01:03.730 --> 00:01:08.390
+So, keep in mind we want to be able to estimate how much revenue we can expect
+
+00:01:08.390 --> 00:01:13.160
+to earn per customer as far into the future as we can.
+
+00:01:13.160 --> 00:01:16.610
+To calculate this, we need to take into account a lot of
+
+00:01:16.610 --> 00:01:21.645
+different metrics and data to create a single LTV metric.
+
+00:01:21.645 --> 00:01:25.520
+First, purchase cycle is a time period that
+
+00:01:25.520 --> 00:01:30.175
+depicts the general frequency with which your products are purchased.
+
+00:01:30.175 --> 00:01:35.330
+At Udacity, if we start a new nano degree class every two weeks,
+
+00:01:35.330 --> 00:01:37.685
+two weeks would be the purchase cycle.
+
+00:01:37.685 --> 00:01:41.240
+Total sales revenue per cycle is the revenue
+
+00:01:41.240 --> 00:01:45.295
+earned from all customers per purchase cycle.
+
+00:01:45.295 --> 00:01:49.130
+Number of sales per purchase cycle is the number of
+
+00:01:49.130 --> 00:01:53.270
+times your average customer buys during the purchase cycle.
+
+00:01:53.270 --> 00:01:57.160
+Cost per acquisition, you've seen this before.
+
+00:01:57.160 --> 00:02:02.545
+It's a total cost of marketing and sales divided by the number of new leads.
+
+00:02:02.545 --> 00:02:06.430
+With me this far, feel free to pause the video or [inaudible] ,
+
+00:02:06.430 --> 00:02:10.315
+review, and think about what I've said this far.
+
+00:02:10.315 --> 00:02:14.005
+Next, we have expectation retention time.
+
+00:02:14.005 --> 00:02:17.545
+This is the amount of time you expect to retain the customer.
+
+00:02:17.545 --> 00:02:20.455
+This is measured in terms of purchase cycles,
+
+00:02:20.455 --> 00:02:22.980
+what we covered right at the top of this list.
+
+00:02:22.980 --> 00:02:29.785
+So, if we expect a customer to be retained for a year given a two-week purchase cycle,
+
+00:02:29.785 --> 00:02:33.445
+then we have an ERT of about 26.
+
+00:02:33.445 --> 00:02:37.760
+Average sales revenue is the revenue you earn from
+
+00:02:37.760 --> 00:02:41.930
+the average customer per transaction during the cycle.
+
+00:02:41.930 --> 00:02:47.840
+This is the total customer revenue divided by the number of purchases in the cycle.
+
+00:02:47.840 --> 00:02:55.955
+Profit margin per customer is the percentage of sales that has turned into profits.
+
+00:02:55.955 --> 00:03:01.685
+Again, feel free to pause the video here and process what I've covered this far.
+
+00:03:01.685 --> 00:03:04.930
+Next, we have one last thing to do,
+
+00:03:04.930 --> 00:03:07.280
+calculate the lifetime value.
+
+00:03:07.280 --> 00:03:11.600
+Lifetime value is the average sale times the number of
+
+00:03:11.600 --> 00:03:17.305
+repeated sales times expected retention time times profit margin.
+
+00:03:17.305 --> 00:03:21.950
+Essentially, this is the net profit you can attribute to
+
+00:03:21.950 --> 00:03:26.810
+the customer over the length of their relationship with the company.
+
+00:03:26.810 --> 00:03:30.360
+Let's do this in Excel in the next video.
+

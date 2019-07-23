@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.785
+Let's look at this table for sale leads provided across the 10 regions.
+
+00:00:04.785 --> 00:00:06.930
+We've also provided the average here.
+
+00:00:06.930 --> 00:00:09.330
+The chart depicts the same information with
+
+00:00:09.330 --> 00:00:12.585
+the average sale leads depicted in the dash line.
+
+00:00:12.585 --> 00:00:17.670
+Now if you simply looked at the average sale leads across the 10 sales regions,
+
+00:00:17.670 --> 00:00:22.575
+you would assume that your sales team got about 430 leads on average.
+
+00:00:22.575 --> 00:00:25.245
+However, that is not the full story.
+
+00:00:25.245 --> 00:00:29.850
+That is the reason why you examine the median and you find out that
+
+00:00:29.850 --> 00:00:34.725
+actually 50 percent of your regions sell below the average.
+
+00:00:34.725 --> 00:00:38.000
+The median here is depicted in this purple line here.
+
+00:00:38.000 --> 00:00:40.755
+If you are presenting to your company executives,
+
+00:00:40.755 --> 00:00:43.995
+that is not a convincing story as they would wonder,
+
+00:00:43.995 --> 00:00:47.765
+"Well, what is a difference between a 100 leads?
+
+00:00:47.765 --> 00:00:51.200
+That looks like a big difference between the average and the median."
+
+00:00:51.200 --> 00:00:54.620
+That's why it's always important to look at the distribution.
+
+00:00:54.620 --> 00:00:58.465
+You see when we crafted and compare the mean and the median,
+
+00:00:58.465 --> 00:01:02.130
+you see that the region 10 did exceptionally well.
+
+00:01:02.130 --> 00:01:08.885
+This type of negatively skewed data necessitates the use of measures of central tendency.
+
+00:01:08.885 --> 00:01:11.720
+Looking at your measure of central tendency mean,
+
+00:01:11.720 --> 00:01:14.360
+median are very important as you are missing
+
+00:01:14.360 --> 00:01:18.260
+vital inflammation if you skip this part in your analysis.
+
+00:01:18.260 --> 00:01:23.375
+In other words, what you're seeing in region 10 was what was pulling the mean up.
+
+00:01:23.375 --> 00:01:26.705
+This revelation can lead to further investigation.
+
+00:01:26.705 --> 00:01:31.470
+For example, why did region 10 have so many more leads than the other regions?
+
+00:01:31.470 --> 00:01:32.895
+What was unique about it?
+
+00:01:32.895 --> 00:01:36.410
+Is there an untapped market we don't know about or
+
+00:01:36.410 --> 00:01:40.465
+maybe the sales manager in charge of that region did well? You get the drift.
+
+00:01:40.465 --> 00:01:45.830
+Looking at the larger context and the distribution always gives you
+
+00:01:45.830 --> 00:01:53.155
+more information than you can simply by looking at one number such as the average.
+
+00:01:53.155 --> 00:01:56.750
+These are important pieces of information that you need to bring
+
+00:01:56.750 --> 00:02:00.670
+back to your company and decision makers as a business analyst.
+

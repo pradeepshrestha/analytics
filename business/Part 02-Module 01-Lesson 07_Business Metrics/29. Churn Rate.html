@@ -1,0 +1,517 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Churn Rate</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Business Metrics</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Lesson Structure.html">02. Lesson Structure</a>
+    </li>
+    <li class="">
+      <a href="03. Key Performance Indicators.html">03. Key Performance Indicators</a>
+    </li>
+    <li class="">
+      <a href="04. Asking Data Questions.html">04. Asking Data Questions</a>
+    </li>
+    <li class="">
+      <a href="05. Business Process Flow.html">05. Business Process Flow</a>
+    </li>
+    <li class="">
+      <a href="06. Business Process Flow Marketing.html">06. Business Process Flow: Marketing</a>
+    </li>
+    <li class="">
+      <a href="07. Business Process Flow Growth.html">07. Business Process Flow: Growth</a>
+    </li>
+    <li class="">
+      <a href="08. Customer Journey.html">08. Customer Journey</a>
+    </li>
+    <li class="">
+      <a href="09. Marketing Funnel.html">09. Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="10. Click Through Rate.html">10. Click Through Rate</a>
+    </li>
+    <li class="">
+      <a href="11. Cost Per Click.html">11. Cost Per Click</a>
+    </li>
+    <li class="">
+      <a href="12. Cost Per Lead.html">12. Cost Per Lead</a>
+    </li>
+    <li class="">
+      <a href="13. Customer Acquisition Cost.html">13. Customer Acquisition Cost</a>
+    </li>
+    <li class="">
+      <a href="14. Optimizing Marketing Funnel.html">14. Optimizing Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="15. Cost Per Acquisition.html">15. Cost Per Acquisition</a>
+    </li>
+    <li class="">
+      <a href="16. Lifetime Value.html">16. Lifetime Value</a>
+    </li>
+    <li class="">
+      <a href="17. Solution for Life Time Value Quiz.html">17. Solution for Life Time Value Quiz</a>
+    </li>
+    <li class="">
+      <a href="18. Interpreting Life Time Value.html">18. Interpreting Life Time Value</a>
+    </li>
+    <li class="">
+      <a href="19. Sales Metrics.html">19. Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="20. Sales Funnel.html">20. Sales Funnel</a>
+    </li>
+    <li class="">
+      <a href="21. Total Bookings.html">21. Total Bookings</a>
+    </li>
+    <li class="">
+      <a href="22. Average Deal Size.html">22. Average Deal Size</a>
+    </li>
+    <li class="">
+      <a href="23. Average Time to Close.html">23. Average Time to Close</a>
+    </li>
+    <li class="">
+      <a href="24. Check For Understanding Sales Metrics.html">24. Check For Understanding: Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="25. Check For Understanding Marketing.html">25. Check For Understanding: Marketing</a>
+    </li>
+    <li class="">
+      <a href="26. Growth Metrics.html">26. Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="27. Engagement Metrics.html">27. Engagement Metrics</a>
+    </li>
+    <li class="">
+      <a href="28. Stickiness.html">28. Stickiness</a>
+    </li>
+    <li class="">
+      <a href="29. Churn Rate.html">29. Churn Rate</a>
+    </li>
+    <li class="">
+      <a href="30. Finance Metrics.html">30. Finance Metrics</a>
+    </li>
+    <li class="">
+      <a href="31. Profit  Loss Statement.html">31. Profit &amp; Loss Statement</a>
+    </li>
+    <li class="">
+      <a href="32. Solution to Quiz in PL Statement.html">32. Solution to Quiz in P&amp;L Statement</a>
+    </li>
+    <li class="">
+      <a href="33. Gross Margin.html">33. Gross Margin</a>
+    </li>
+    <li class="">
+      <a href="34. Contribution Margin.html">34. Contribution Margin</a>
+    </li>
+    <li class="">
+      <a href="35. Check For Understanding Finance and Growth Metrics.html">35. Check For Understanding: Finance and Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="36. Distribution of the Data.html">36. Distribution of the Data</a>
+    </li>
+    <li class="">
+      <a href="37. Grouping the Data.html">37. Grouping the Data</a>
+    </li>
+    <li class="">
+      <a href="38. Summary.html">38. Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">29. Churn Rate</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="churn-rate">Churn Rate</h1>
+<p>** Churn Rate captures the number of people we retain at the end of a time period. **</p>
+<p>Let's think about our online grocery delivery store WeCart. If customers don't renew their subscription, or request a refund, this impacts our growth. Thus to grow the business, we need to make sure we are retaining the customers we have already acquired. Churn Rate is often adopted  by companies using a subscriber-based service model, especially in the telecommunication industry. In recent years, ecommerce and SaaS based companies have adopted the churn rate metric too. </p>
+<p>To calculate the customer churn rate you need 2 simple things - <br />
+Customers at the beginning of usage interval and Customers at the end of the usage interval. Just looking at these two numbers will tell you whether you end the interval with the same or fewer customers. </p>
+<p>** Important note: ** We only want to calculate the churn rate based on the customers we started the time interval with. When getting the number of customers at the end of the interval, we do NOT add the customers who converted during the interval . Churn rate should only tell you whether the current customers have left or stayed.</p>
+<h3 id="calculation">Calculation</h3>
+<p>** Customer Churn Rate = (Customers at the beginning of usage interval - Customers at the end of usage interval) / Customers at the beginning of usage interval **</p>
+<h3 id="terminology">Terminology</h3>
+<ul>
+<li>** Usage Interval:** This time period should make sense for the service or product the customers are using. It can range from a day, a week, to a month or quarter. It depends on the service or product the company is providing and how often you would expect a customer to be active on the website. </li>
+</ul>
+<p>For e.g., WeCart is an online grocery business, so we would expect an existing customer to place at least 1 order over a month. We will use the usage interval of 1 month. If the customer has not placed any order over the course of a month, we can count that customer as having churned. Once we have identified these users as having churned, we can focus on the efforts to bring them back to the website and make the active again.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<p>The following video describes how to calculate the Churn Rate.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Churn Rate V1</p></h3>
+  <video controls>
+  <source src="29. Churn Rate V1-b6RyLycx-hI.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="29. Churn Rate V1-b6RyLycx-hI.zh-CN.vtt" label="zh-CN">
+  <track default="true" kind="subtitles" srclang="en" src="29. Churn Rate V1-b6RyLycx-hI.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="interpretation-of-churn-rate">Interpretation of Churn Rate</h3>
+<p>While the churn rate is inevitable, in general an <strong>annual</strong> churn rate of 0.05% is seen as a reasonable benchmark. Keep in mind that the range for churn rates is wider for B2C companies. </p>
+<p>As you calculate your annual churn rate, keep in mind a few other "data assumptions" that you need to watch out for. </p>
+<ol>
+<li>Select a time interval during which you calculate the churn rate is consistent with the company's subscription or usage model. There is no ideal usage interval - the usage interval depends on the length of time the company expects the user to be active at least once.</li>
+<li>Pay attention to different customer segments, especially if they have different churn rates (e.g., by region).</li>
+<li>Make sure your data does not include new customers gained during the time interval. Churn rate is focusing on customers who stayed or are active vs. stop being active on the website.</li>
+</ol>
+<h3 id="additional-resources">Additional Resources</h3>
+<ul>
+<li><a href="http://chaotic-flow.com/saas-metrics-faqs-what-is-churn/" target="_blank">Chaotic Flow</a>: Nice article on what data considerations one should keep in mind when calculating annual churn rate.</li>
+<li><a href="https://sixteenventures.com/saas-churn-rate" target="_blank">Six Ventures</a>:  A blog on differentiating between 5% annual vs. 5% monthly churn rate.</li>
+<li><a href="https://info.recurly.com/research/churn-rate-benchmarks" target="_blank">Recurly</a>: This website talks about benchmarks for Churn rate across industries, so check those out to learn about industry specific churn rates. </li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="quiz">Quiz</h2>
+<p>For the following quiz, please download the corresponding file ** BAND Churn Rate Quiz**. You can download the file by clicking under the Resources at the bottom of the page.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>What is the churn rate for the following months?</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>January</p></button>
+  <button class="btn btn-primary"><p>February</p></button>
+  <button class="btn btn-primary"><p>April</p></button>
+  <button class="btn btn-primary"><p>June</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Months</p>
+      </th>
+      <th>
+        <p>Churn Rate</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>-0.184</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>0.062</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>0.053</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>-0.080</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Months</p>
+        </th>
+        <th>
+          <p>Churn Rate</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>-0.184</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>June</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0.062</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>February</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>0.053</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>January</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>-0.080</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>April</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What are some conclusions you would make based on the churn rate for each month?<br><br />
+<em>Select all that apply</em></p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1537298613871" name="718400" id="a1537298613871">
+      <label for="a1537298613871"><p>Smoothie Rocks was losing customers the first two months of the year.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1537298727666" name="718400" id="a1537298727666">
+      <label for="a1537298727666"><p>Smoothie Rocks was losing customers from March through June.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1537298822727" name="718400" id="a1537298822727">
+      <label for="a1537298822727"><p>Churn rate improved over the first half of the year.</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>Smoothie Rocks was losing customers the first two months of the year.</li>
+      <li>Churn rate improved over the first half of the year.</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What values do you need to calculate the Churn Rate?</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1537902035190" name="728232" id="a1537902035190">
+      <label for="a1537902035190"><p>Paid customers at beginning of the month</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1537902043350" name="728232" id="a1537902043350">
+      <label for="a1537902043350"><p>Leads at the end of the month</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1537902044007" name="728232" id="a1537902044007">
+      <label for="a1537902044007"><p>Leads at the beginning of the month</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1537902045323" name="728232" id="a1537902045323">
+      <label for="a1537902045323"><p>Paid customers at end of the month</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>Paid customers at beginning of the month</li>
+      <li>Paid customers at end of the month</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="recap">Recap:</h2>
+<ul>
+<li>** Churn Rate** = (Customers beginning of usage interval - Customers end of usage interval) / Customers beginning of usage interval</li>
+<li>Churn rate is a measure of declining growth. Business need to make sure that they are acquiring new customers at a rate faster than their "churn rate"</li>
+<li>Growth rate is a measure of new customers being added in the usage interval.</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="new-vocabulary">New Vocabulary</h2>
+<ul>
+<li><p>** Software as a service (SaaS)**:  SaaS is a software distribution model in which the application is made available on servers hosted by a third-party provider, which in turn provides the software to customers over the Internet.</p></li>
+<li><p>** Subscribed based service model:** Subscribed based service model is a model where consumers agree to pay a subscription fee to gain access to the service or product.</p></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="30. Finance Metrics.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.3.0</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('29. Churn Rate')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

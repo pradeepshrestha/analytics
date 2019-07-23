@@ -1,0 +1,386 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gross Margin</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Business Metrics</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Lesson Structure.html">02. Lesson Structure</a>
+    </li>
+    <li class="">
+      <a href="03. Key Performance Indicators.html">03. Key Performance Indicators</a>
+    </li>
+    <li class="">
+      <a href="04. Asking Data Questions.html">04. Asking Data Questions</a>
+    </li>
+    <li class="">
+      <a href="05. Business Process Flow.html">05. Business Process Flow</a>
+    </li>
+    <li class="">
+      <a href="06. Business Process Flow Marketing.html">06. Business Process Flow: Marketing</a>
+    </li>
+    <li class="">
+      <a href="07. Business Process Flow Growth.html">07. Business Process Flow: Growth</a>
+    </li>
+    <li class="">
+      <a href="08. Customer Journey.html">08. Customer Journey</a>
+    </li>
+    <li class="">
+      <a href="09. Marketing Funnel.html">09. Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="10. Click Through Rate.html">10. Click Through Rate</a>
+    </li>
+    <li class="">
+      <a href="11. Cost Per Click.html">11. Cost Per Click</a>
+    </li>
+    <li class="">
+      <a href="12. Cost Per Lead.html">12. Cost Per Lead</a>
+    </li>
+    <li class="">
+      <a href="13. Customer Acquisition Cost.html">13. Customer Acquisition Cost</a>
+    </li>
+    <li class="">
+      <a href="14. Optimizing Marketing Funnel.html">14. Optimizing Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="15. Cost Per Acquisition.html">15. Cost Per Acquisition</a>
+    </li>
+    <li class="">
+      <a href="16. Lifetime Value.html">16. Lifetime Value</a>
+    </li>
+    <li class="">
+      <a href="17. Solution for Life Time Value Quiz.html">17. Solution for Life Time Value Quiz</a>
+    </li>
+    <li class="">
+      <a href="18. Interpreting Life Time Value.html">18. Interpreting Life Time Value</a>
+    </li>
+    <li class="">
+      <a href="19. Sales Metrics.html">19. Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="20. Sales Funnel.html">20. Sales Funnel</a>
+    </li>
+    <li class="">
+      <a href="21. Total Bookings.html">21. Total Bookings</a>
+    </li>
+    <li class="">
+      <a href="22. Average Deal Size.html">22. Average Deal Size</a>
+    </li>
+    <li class="">
+      <a href="23. Average Time to Close.html">23. Average Time to Close</a>
+    </li>
+    <li class="">
+      <a href="24. Check For Understanding Sales Metrics.html">24. Check For Understanding: Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="25. Check For Understanding Marketing.html">25. Check For Understanding: Marketing</a>
+    </li>
+    <li class="">
+      <a href="26. Growth Metrics.html">26. Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="27. Engagement Metrics.html">27. Engagement Metrics</a>
+    </li>
+    <li class="">
+      <a href="28. Stickiness.html">28. Stickiness</a>
+    </li>
+    <li class="">
+      <a href="29. Churn Rate.html">29. Churn Rate</a>
+    </li>
+    <li class="">
+      <a href="30. Finance Metrics.html">30. Finance Metrics</a>
+    </li>
+    <li class="">
+      <a href="31. Profit  Loss Statement.html">31. Profit &amp; Loss Statement</a>
+    </li>
+    <li class="">
+      <a href="32. Solution to Quiz in PL Statement.html">32. Solution to Quiz in P&amp;L Statement</a>
+    </li>
+    <li class="">
+      <a href="33. Gross Margin.html">33. Gross Margin</a>
+    </li>
+    <li class="">
+      <a href="34. Contribution Margin.html">34. Contribution Margin</a>
+    </li>
+    <li class="">
+      <a href="35. Check For Understanding Finance and Growth Metrics.html">35. Check For Understanding: Finance and Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="36. Distribution of the Data.html">36. Distribution of the Data</a>
+    </li>
+    <li class="">
+      <a href="37. Grouping the Data.html">37. Grouping the Data</a>
+    </li>
+    <li class="">
+      <a href="38. Summary.html">38. Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">33. Gross Margin</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="gross-margin">Gross Margin</h1>
+<p>Gross Margin is a statement about the overall profitability of the company.</p>
+<h2 id="calculation">Calculation</h2>
+<p>Gross Margin =  (Total Sales Revenue – Cost of Goods Sold) / Total Sales Revenue </p>
+<p>which is the same as Gross Profit / Total Sales Revenue</p>
+<p>This metric identifies the revenue that remains after accounting for direct costs of production. </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<p>The following video describes how to calculate the Gross Margin.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Grossmargin V1</p></h3>
+  <video controls>
+  <source src="33. Grossmargin V1-CjaHFtfOjJ8.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="33. Grossmargin V1-CjaHFtfOjJ8.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="zh-CN" src="33. Grossmargin V1-CjaHFtfOjJ8.zh-CN.vtt" label="zh-CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="quiz">Quiz</h3>
+<p>Use the the ** Smoothie Rocks Margin Quizzes** file in the Resources at the end of the page to answer the Quiz question. Once you have downloaded the Excel spreadsheet, calculate the appropriate metrics and then respond to the quiz question below.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Select all the TRUE statements about the Gross Margin.</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1537252321042" name="715142" id="a1537252321042">
+      <label for="a1537252321042"><p>Gross Margin indicates the break even point for each unit produced.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1537252347116" name="715142" id="a1537252347116">
+      <label for="a1537252347116"><p>Gross Margin is an indicator of whether the generated revenues will cover operating expenses after accounting for COGS.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1537252348345" name="715142" id="a1537252348345">
+      <label for="a1537252348345"><p>Gross Margin is equal to Gross Profit.</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>Gross Margin is an indicator of whether the generated revenues will cover operating expenses after accounting for COGS.</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Use the SmoothieRock_Margin quizzes data available in the resources. Calculate the Gross Margin in dollars and select the correct response below.</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1537286983037" name="718281" id="a1537286983037">
+        <label for="a1537286983037"><p>$0.36</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1537287094877" name="718281" id="a1537287094877">
+        <label for="a1537287094877"><p>$0.33</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1537287100069" name="718281" id="a1537287100069">
+        <label for="a1537287100069"><p>$1.04</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1537287103872" name="718281" id="a1537287103872">
+        <label for="a1537287103872"><p>Cannot be calculated</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    $0.33
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="recap">Recap:</h2>
+<ul>
+<li><p>** Gross Margin** =  (Total Sales Revenue – Cost of Goods Sold) / Total Sales Revenue</p></li>
+<li><p>Can also be represented in percentage by multiplying it by 100</p>
+<ul>
+<li>** Gross Margin (in %)** = [ (Total Sales Revenue – Cost of Goods Sold) / Total Sales Revenue]*100</li></ul></li>
+<li><p>Gross Margin tells business executives what percentage of each revenue dollar is available to cover operating expenses after the COGS have been accounted for. </p></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="34. Contribution Margin.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.3.0</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('33. Gross Margin')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

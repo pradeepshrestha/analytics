@@ -1,0 +1,314 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Head to the Project</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>SQL Aggregations</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Introduction to Aggregation.html">01. Video: Introduction to Aggregation</a>
+    </li>
+    <li class="">
+      <a href="02. Video Introduction to NULLs.html">02. Video: Introduction to NULLs</a>
+    </li>
+    <li class="">
+      <a href="03. Video NULLs and Aggregation.html">03. Video: NULLs and Aggregation</a>
+    </li>
+    <li class="">
+      <a href="04. Video + Text First Aggregation - COUNT.html">04. Video + Text: First Aggregation - COUNT</a>
+    </li>
+    <li class="">
+      <a href="05. Video COUNT  NULLs.html">05. Video: COUNT &amp; NULLs</a>
+    </li>
+    <li class="">
+      <a href="06. Video SUM.html">06. Video: SUM</a>
+    </li>
+    <li class="">
+      <a href="07. Quiz SUM.html">07. Quiz: SUM</a>
+    </li>
+    <li class="">
+      <a href="08. Solution SUM.html">08. Solution: SUM</a>
+    </li>
+    <li class="">
+      <a href="09. Video MIN  MAX.html">09. Video: MIN &amp; MAX</a>
+    </li>
+    <li class="">
+      <a href="10. Video AVG.html">10. Video: AVG</a>
+    </li>
+    <li class="">
+      <a href="11. Quiz MIN, MAX,  AVG.html">11. Quiz: MIN, MAX, &amp; AVG</a>
+    </li>
+    <li class="">
+      <a href="12. Solutions MIN, MAX,  AVG.html">12. Solutions: MIN, MAX, &amp; AVG</a>
+    </li>
+    <li class="">
+      <a href="13. Video GROUP BY.html">13. Video: GROUP BY</a>
+    </li>
+    <li class="">
+      <a href="14. Quiz GROUP BY.html">14. Quiz: GROUP BY</a>
+    </li>
+    <li class="">
+      <a href="15. Solutions GROUP BY.html">15. Solutions: GROUP BY</a>
+    </li>
+    <li class="">
+      <a href="16. Video GROUP BY Part II.html">16. Video: GROUP BY Part II</a>
+    </li>
+    <li class="">
+      <a href="17. Quiz GROUP BY Part II.html">17. Quiz: GROUP BY Part II</a>
+    </li>
+    <li class="">
+      <a href="18. Solutions GROUP BY Part II.html">18. Solutions: GROUP BY Part II</a>
+    </li>
+    <li class="">
+      <a href="19. Video DISTINCT.html">19. Video: DISTINCT</a>
+    </li>
+    <li class="">
+      <a href="20. Quiz DISTINCT.html">20. Quiz: DISTINCT</a>
+    </li>
+    <li class="">
+      <a href="21. Solutions DISTINCT.html">21. Solutions: DISTINCT</a>
+    </li>
+    <li class="">
+      <a href="22. Video HAVING.html">22. Video: HAVING</a>
+    </li>
+    <li class="">
+      <a href="23. HAVING.html">23. HAVING</a>
+    </li>
+    <li class="">
+      <a href="24. Solutions HAVING.html">24. Solutions: HAVING</a>
+    </li>
+    <li class="">
+      <a href="25. Video DATE Functions.html">25. Video: DATE Functions</a>
+    </li>
+    <li class="">
+      <a href="26. Video DATE Functions II.html">26. Video: DATE Functions II</a>
+    </li>
+    <li class="">
+      <a href="27. Quiz DATE Functions.html">27. Quiz: DATE Functions</a>
+    </li>
+    <li class="">
+      <a href="28. Solutions DATE Functions.html">28. Solutions: DATE Functions</a>
+    </li>
+    <li class="">
+      <a href="29. Video CASE Statements.html">29. Video: CASE Statements</a>
+    </li>
+    <li class="">
+      <a href="30. Video CASE  Aggregations.html">30. Video: CASE &amp; Aggregations</a>
+    </li>
+    <li class="">
+      <a href="31. Quiz CASE.html">31. Quiz: CASE</a>
+    </li>
+    <li class="">
+      <a href="32. Solutions CASE.html">32. Solutions: CASE</a>
+    </li>
+    <li class="">
+      <a href="33. Text Recap.html">33. Text: Recap</a>
+    </li>
+    <li class="">
+      <a href="34. Head to the Project.html">34. Head to the Project</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">34. Head to the Project</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="ready-for-the-project">Ready for the Project</h2>
+<p>You have learned everything need to start and complete the project in this course.</p>
+<p>In the Project: Query a Digital Music Store Database, you will be using a new data set. It will be a music store. However as one final preparation below is a fully completed project that uses the Parch and Posey Data you have been using. Hopefully it will be an example you can use to guide your work in the project.</p>
+<h2 id="go-to-the-project">Go to the project</h2>
+<p><center><a href="https://classroom.udacity.com/nanodegrees/nd098/parts/aba4e358-df1e-4800-9f02-9dc6f2c9ff76/modules/711bfde5-0390-4c6f-9cd5-7e0f0d5b7709/lessons/036453a0-0231-430a-826f-5ede1d8d7a49/concepts/1809419f-39c9-4dea-afe0-8856242d01d7" target="_blank"><button style="box-sizing: border-box; border-radius: 4px; background: #02B3E4; border: none; height: 44px; padding: 0 25px; color: white; cursor: pointer; font-family: Open Sans,sans-serif; display: inline-block; border: none; font-size: 12px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase;">Go to Project</button></a></center></p>
+<h2 id="look-at-the-example-practice-project-first">Look at the example practice project first</h2>
+<p>See below</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="lets-set-up-your-local-environment">Let's set up your local environment</h1>
+<p>It's totally fine to get started learning SQL here in the classroom, but the way to really master your skills is to get a local setup and learn to work within your own environment.  </p>
+<p>The environment we'll use is pretty quick to set up and hopefully you'll be up and running in no time :)</p>
+<p>First you need to:</p>
+<ul>
+<li>Download the database file here: <a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/May/5afb2ecf_pandp/pandp.db" target="_blank">Parch and Posey Database</a></li>
+<li>Download DB Browser for SQLite: <a href="http://sqlitebrowser.org/" target="_blank">http://sqlitebrowser.org/</a></li>
+</ul>
+<p>After both have been downloaded:</p>
+<ul>
+<li>Open up DB Browser to SQLite</li>
+<li>Click on <em>Open Database</em></li>
+<li>Navigate to the pandp.db file (probably in your downloads)</li>
+<li>Click on the <em>Execute SQL</em></li>
+<li>Start querying your data</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="example-project-prompt">Example Project Prompt</h1>
+<p>In this project, you will query the Parch and Posey Database. The Parch and Posey Database holds information about a paper store. For this project, you will be assisting the Parch and Posey team with understanding their web traffic, their customers and employees, and their order information.</p>
+<p>You need to come up with 4 questions that you can answer with SQL. The questions must be complex enough to where the SQL used to answer it requires at least one JOIN and one Aggregation. </p>
+<p>Your presentation should include:</p>
+<ul>
+<li>Four slides</li>
+<li>One visualization per slide (You can export your query results from DB Browser to a csv and use Excel or any other spreadsheet software to create an appropriate chart)</li>
+<li>A 1-2 sentence explanation of each slide</li>
+</ul>
+<h3 id="submission-template">Submission Template</h3>
+<p>The submission template is a Google Slides file. Make a copy of the submission template to complete your project. We suggest you use the layout provided, though it is not a requirement. It is also attached below as a powerpoint file.</p>
+<p><center><a href="https://drive.google.com/open?id=1l6NMD_m4J4Mfb2wd4WP_x2hwCkCZ5-isWhGan2SIURg" target="_blank"><button style="box-sizing: border-box; border-radius: 4px; background: #02B3E4; border: none; height: 44px; padding: 0 25px; color: white; cursor: pointer; font-family: Open Sans,sans-serif; display: inline-block; border: none; font-size: 12px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase;">Submission Template</button></a></center></p>
+<h3 id="queries">Queries</h3>
+<p>Please include a text file that includes each of the queries used to create the visualizations. You should format your queries for readability, use this tool to help <a href="http://www.sql-format.com/" target="_blank">http://www.sql-format.com/</a>. In a plain text file (use notepad, notepad++, or atom).</p>
+<h3 id="completed-example-project">Completed Example Project</h3>
+<p>You can view the completed practice project by downloading the CompletedPracticeProject file below. In it will be a PDF of the 4 slides, each with a visualization and short explanation and a txt file with the queries used to find the data.</p>
+<p>After looking through this please head to the actual project.</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.3.0</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('34. Head to the Project')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

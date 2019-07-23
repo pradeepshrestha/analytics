@@ -1,0 +1,593 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contribution Margin</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Business Metrics</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Lesson Structure.html">02. Lesson Structure</a>
+    </li>
+    <li class="">
+      <a href="03. Key Performance Indicators.html">03. Key Performance Indicators</a>
+    </li>
+    <li class="">
+      <a href="04. Asking Data Questions.html">04. Asking Data Questions</a>
+    </li>
+    <li class="">
+      <a href="05. Business Process Flow.html">05. Business Process Flow</a>
+    </li>
+    <li class="">
+      <a href="06. Business Process Flow Marketing.html">06. Business Process Flow: Marketing</a>
+    </li>
+    <li class="">
+      <a href="07. Business Process Flow Growth.html">07. Business Process Flow: Growth</a>
+    </li>
+    <li class="">
+      <a href="08. Customer Journey.html">08. Customer Journey</a>
+    </li>
+    <li class="">
+      <a href="09. Marketing Funnel.html">09. Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="10. Click Through Rate.html">10. Click Through Rate</a>
+    </li>
+    <li class="">
+      <a href="11. Cost Per Click.html">11. Cost Per Click</a>
+    </li>
+    <li class="">
+      <a href="12. Cost Per Lead.html">12. Cost Per Lead</a>
+    </li>
+    <li class="">
+      <a href="13. Customer Acquisition Cost.html">13. Customer Acquisition Cost</a>
+    </li>
+    <li class="">
+      <a href="14. Optimizing Marketing Funnel.html">14. Optimizing Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="15. Cost Per Acquisition.html">15. Cost Per Acquisition</a>
+    </li>
+    <li class="">
+      <a href="16. Lifetime Value.html">16. Lifetime Value</a>
+    </li>
+    <li class="">
+      <a href="17. Solution for Life Time Value Quiz.html">17. Solution for Life Time Value Quiz</a>
+    </li>
+    <li class="">
+      <a href="18. Interpreting Life Time Value.html">18. Interpreting Life Time Value</a>
+    </li>
+    <li class="">
+      <a href="19. Sales Metrics.html">19. Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="20. Sales Funnel.html">20. Sales Funnel</a>
+    </li>
+    <li class="">
+      <a href="21. Total Bookings.html">21. Total Bookings</a>
+    </li>
+    <li class="">
+      <a href="22. Average Deal Size.html">22. Average Deal Size</a>
+    </li>
+    <li class="">
+      <a href="23. Average Time to Close.html">23. Average Time to Close</a>
+    </li>
+    <li class="">
+      <a href="24. Check For Understanding Sales Metrics.html">24. Check For Understanding: Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="25. Check For Understanding Marketing.html">25. Check For Understanding: Marketing</a>
+    </li>
+    <li class="">
+      <a href="26. Growth Metrics.html">26. Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="27. Engagement Metrics.html">27. Engagement Metrics</a>
+    </li>
+    <li class="">
+      <a href="28. Stickiness.html">28. Stickiness</a>
+    </li>
+    <li class="">
+      <a href="29. Churn Rate.html">29. Churn Rate</a>
+    </li>
+    <li class="">
+      <a href="30. Finance Metrics.html">30. Finance Metrics</a>
+    </li>
+    <li class="">
+      <a href="31. Profit  Loss Statement.html">31. Profit &amp; Loss Statement</a>
+    </li>
+    <li class="">
+      <a href="32. Solution to Quiz in PL Statement.html">32. Solution to Quiz in P&amp;L Statement</a>
+    </li>
+    <li class="">
+      <a href="33. Gross Margin.html">33. Gross Margin</a>
+    </li>
+    <li class="">
+      <a href="34. Contribution Margin.html">34. Contribution Margin</a>
+    </li>
+    <li class="">
+      <a href="35. Check For Understanding Finance and Growth Metrics.html">35. Check For Understanding: Finance and Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="36. Distribution of the Data.html">36. Distribution of the Data</a>
+    </li>
+    <li class="">
+      <a href="37. Grouping the Data.html">37. Grouping the Data</a>
+    </li>
+    <li class="">
+      <a href="38. Summary.html">38. Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">34. Contribution Margin</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L1 34 Contribution Margin V3</p></h3>
+  <video controls>
+  <source src="34. L1 34 Contribution Margin V3-PO25budhMPI.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="34. L1 34 Contribution Margin V3-PO25budhMPI.zh-CN.vtt" label="zh-CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="contribution-margin">Contribution Margin</h2>
+<p>Contribution Margin tells us the amount of revenue that covers the variable costs and is now available to cover the fixed costs and generate profits. Companies use it to identify which product or product line is contributing the most to the profit margin. It also helps determine the break even point where the pricing will cover fixed overhead costs and leave enough for profits too.</p>
+<p>Fixed costs are also called ** sunk costs**. A good caution to keep in mind is that fixed or sunk costs can increase (for e.g., unexpected rent increases, machinery replacement costs), which is why operational managers prefer the term sunk costs.  These sunk costs can prove tricky, because a small increment when taken in bulk, can turn out to be catastrophic for companies, especially start-ups.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Citation for graph depicting <a href="https://www.dummies.com/business/operations-management/how-to-prepare-a-cost-volume-profit-analysis/" target="_blank">Contribution Margin</a>.</p>
+<p>In the graph depicted in the video ** Total Contribution Margin is indicated by the red line.**</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="terminology">Terminology</h2>
+<ul>
+<li>** Fixed costs:** Expenses incurred on a regular basis, such as monthly rent, utilities, and employee salaries. </li>
+<li>** Variable costs:** Expenses that move up and down in response to production output.</li>
+<li>** Contribution Margin:** The amount of revenue that covers the variable costs and is able to cover the fixed costs. </li>
+</ul>
+<h2 id="calculation">Calculation</h2>
+<ul>
+<li><p>** Total Contribution Margin** = Total Sales Revenue - Total Variable Cost</p></li>
+<li><p>** Contribution Margin Per Unit:**  Total Contribution Margin / Number of Units Sold</p></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<p>The following video describes how to calculate Total Contribution Margin and Contribution Margin Per Unit.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Contributionmargin V1</p></h3>
+  <video controls>
+  <source src="34. Contributionmargin V1-hpMueSCPxzo.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="34. Contributionmargin V1-hpMueSCPxzo.zh-CN.vtt" label="zh-CN">
+  <track default="true" kind="subtitles" srclang="en" src="34. Contributionmargin V1-hpMueSCPxzo.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="quiz">Quiz</h3>
+<p>Match the expense with whether it is a fixed or variable cost.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>What type of cost is this line item?</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Engineering and Hosting Costs</p></button>
+  <button class="btn btn-primary"><p>Shipping Costs</p></button>
+  <button class="btn btn-primary"><p>Charges for Third-Party System</p></button>
+  <button class="btn btn-primary"><p>Packaging supplies</p></button>
+  <button class="btn btn-primary"><p>Rent for Office</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Line item</p>
+      </th>
+      <th>
+        <p>Fixed vs. Variable Costs</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>Fixed Costs</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Fixed Costs</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Variable Costs</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Fixed Costs</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Variable Costs</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Line item</p>
+        </th>
+        <th>
+          <p>Fixed vs. Variable Costs</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Engineering and Hosting Costs</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Charges for Third-Party System</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Rent for Office</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Engineering and Hosting Costs</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Charges for Third-Party System</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Rent for Office</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Variable Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Shipping Costs</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Variable Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Packaging supplies</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Engineering and Hosting Costs</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Charges for Third-Party System</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Fixed Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Rent for Office</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Variable Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Shipping Costs</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Variable Costs</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Packaging supplies</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Continue using the SmoothieRocks_Margin quizzes data from the previous page. Calculate the Contribution Margin per unit in dollars and select the correct response below.</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1537287154267" name="718282" id="a1537287154267">
+        <label for="a1537287154267"><p>$3.02</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1537287177696" name="718282" id="a1537287177696">
+        <label for="a1537287177696"><p>$2.71</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1537287181571" name="718282" id="a1537287181571">
+        <label for="a1537287181571"><p>$1.38</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1537287187972" name="718282" id="a1537287187972">
+        <label for="a1537287187972"><p>Cannot be calculated</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    $2.71
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What advice or recommendation would you give the to owners of Smoothie Rocks if their lowest sale price for a small smoothie is $2.10.</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1537291382327" name="718295" id="a1537291382327">
+        <label for="a1537291382327"><p>Price is too low</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1537291472485" name="718295" id="a1537291472485">
+        <label for="a1537291472485"><p>Price is too high</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1537291473155" name="718295" id="a1537291473155">
+        <label for="a1537291473155"><p>Price is fine as it is</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    Price is too low
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="recap">Recap:</h2>
+<ul>
+<li>** Contribution Margin** Per Unit = (Revenue - Variable Costs) / Total units sold</li>
+<li>** Total Contribution Margin** = </li>
+<li>Variable costs include costs that change with the number of units produced. For instance, cost of raw materials, cost of services provided.</li>
+<li>It is particularly helpful for companies to determine the pricing of their product, in other words, find the break even point where the pricing will also cover fixed costs and provide profit.</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="additional-resource">Additional Resource</h3>
+<ul>
+<li>This <a href="https://hbr.org/2017/10/contribution-margin-what-it-is-how-to-calculate-it-and-why-you-need-it" target="_blank">interview captured in the Harvard Business Review</a> provides a thorough but easy read about Contribution Margin. </li>
+<li>Check out this link for <a href="https://www.dummies.com/business/operations-management/how-to-prepare-a-cost-volume-profit-analysis/" target="_blank">Contribution Margin</a> that provides an excellent explanation for how Contribution Margin is derived. It also explains other ways to calculate contribution margin.</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="35. Check For Understanding Finance and Growth Metrics.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.3.0</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('34. Contribution Margin')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

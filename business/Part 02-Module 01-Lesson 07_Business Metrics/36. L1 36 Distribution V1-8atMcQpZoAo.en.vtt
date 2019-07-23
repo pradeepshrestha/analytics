@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.580 --> 00:00:07.800
+In the earlier lessons, you learned about measures of
+
+00:00:07.800 --> 00:00:10.485
+central tendency and measures of spread.
+
+00:00:10.485 --> 00:00:12.000
+As a business analyst,
+
+00:00:12.000 --> 00:00:15.390
+you should make sure to apply these statistical tools as
+
+00:00:15.390 --> 00:00:19.245
+you generate and examine the data using business metrics.
+
+00:00:19.245 --> 00:00:22.620
+A business metric is one data point that in
+
+00:00:22.620 --> 00:00:26.355
+itself does not tell much about the larger context.
+
+00:00:26.355 --> 00:00:28.395
+Much like other things in life,
+
+00:00:28.395 --> 00:00:33.540
+data makes more sense and has more value if it is looked at within a context.
+
+00:00:33.540 --> 00:00:35.550
+So, as a business analyst,
+
+00:00:35.550 --> 00:00:38.490
+your data analysis process should include
+
+00:00:38.490 --> 00:00:42.020
+exploratory checks to examine the spread of the data.
+
+00:00:42.020 --> 00:00:47.875
+You should always be asking and checking to see if the data is spread out equally in
+
+00:00:47.875 --> 00:00:51.100
+each direction and to see if the shape of
+
+00:00:51.100 --> 00:00:55.315
+the distribution resembles a normal distribution or not.
+
+00:00:55.315 --> 00:00:58.990
+This is important, because you need to know if
+
+00:00:58.990 --> 00:01:03.020
+what you're seeing is expected or out of the ordinary.
+
+00:01:03.020 --> 00:01:04.845
+In the previous lesson,
+
+00:01:04.845 --> 00:01:09.025
+we talked about skewness and we come back to it in this lesson.
+
+00:01:09.025 --> 00:01:12.160
+The box plot or histogram as you may
+
+00:01:12.160 --> 00:01:16.135
+remember are useful tools that tell you about skewness.
+
+00:01:16.135 --> 00:01:19.525
+They can alert you to any skewness in the data.
+
+00:01:19.525 --> 00:01:23.455
+Another way to check for skewness is to compare the mean
+
+00:01:23.455 --> 00:01:27.755
+and median values to see if they are more or less the same.
+
+00:01:27.755 --> 00:01:31.970
+Creating visualizations to look at data distributions and computing
+
+00:01:31.970 --> 00:01:35.030
+multiple summary statistics like mean and
+
+00:01:35.030 --> 00:01:38.840
+median should be a reflexive habit of a business analyst.
+
+00:01:38.840 --> 00:01:43.000
+Let's look at an example to understand why this is important.
+

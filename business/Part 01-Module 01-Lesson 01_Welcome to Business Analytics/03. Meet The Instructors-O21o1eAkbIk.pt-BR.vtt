@@ -1,0 +1,278 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.733 --> 00:00:02.766
+Olá de novo!
+Nos próximos dois meses,
+
+00:00:02.933 --> 00:00:04.566
+serei seu guia por este programa.
+
+00:00:04.899 --> 00:00:06.733
+Estou muito empolgado
+para apresentar a equipe
+
+00:00:06.799 --> 00:00:08.699
+que trabalhará comigo
+no ensino deste curso.
+
+00:00:09.133 --> 00:00:10.966
+Primeiro, quero apresentar Dana.
+
+00:00:11.299 --> 00:00:12.633
+Ela se juntará a mim
+
+00:00:12.699 --> 00:00:14.666
+no primeiro material
+que você aprenderá.
+
+00:00:15.199 --> 00:00:16.533
+Olá, sou Dana.
+
+00:00:16.833 --> 00:00:19.433
+Sou engenheira elétrica
+e cientista da computação.
+
+00:00:19.766 --> 00:00:22.499
+Tenho muitos anos de experiência
+trabalhando no setor,
+
+00:00:22.566 --> 00:00:25.199
+resolvendo problemas
+e respondendo a perguntas técnicas
+
+00:00:25.299 --> 00:00:26.533
+com base em dados.
+
+00:00:26.799 --> 00:00:29.433
+As planilhas são uma
+das minhas ferramentas favoritas,
+
+00:00:29.499 --> 00:00:33.633
+não só para analisar dados,
+mas para criar tabelas e gráficos
+
+00:00:33.699 --> 00:00:37.199
+para apresentar minha análise
+claramente aos clientes e à gerência.
+
+00:00:37.633 --> 00:00:40.599
+Irei trabalhar com você
+o básico das planilhas.
+
+00:00:40.766 --> 00:00:42.499
+Depois de aprender
+estes conceitos básicos,
+
+00:00:42.566 --> 00:00:46.233
+você estará bem equipado
+para ir ao próximo nível.
+
+00:00:46.733 --> 00:00:47.833
+Na próxima seção,
+
+00:00:47.899 --> 00:00:49.199
+você aprenderá com o Derek.
+
+00:00:49.499 --> 00:00:51.666
+Derek,
+quer contar um pouco sobre você?
+
+00:00:51.766 --> 00:00:53.833
+Eu sei, nós, na Udacity,
+estamos muito entusiasmados
+
+00:00:53.899 --> 00:00:55.799
+em ter você como parte da equipe
+que lidera este curso.
+
+00:00:56.099 --> 00:00:57.099
+Obrigado, Josh.
+
+00:00:57.399 --> 00:01:00.599
+Meu nome é Derek,
+e sou CEO do Mode Analytics,
+
+00:01:01.233 --> 00:01:02.399
+uma plataforma analítica
+
+00:01:02.466 --> 00:01:04.899
+que torna fácil
+mudar as consultas SQL
+
+00:01:04.966 --> 00:01:06.599
+em relatórios
+e painéis de indicadores
+
+00:01:06.666 --> 00:01:08.633
+que você pode compartilhar
+em toda a sua empresa.
+
+00:01:09.666 --> 00:01:11.433
+Eu uso o Mode ao longo deste curso,
+
+00:01:11.799 --> 00:01:14.333
+então você terá uma amostra
+de algumas das suas funcionalidades.
+
+00:01:15.666 --> 00:01:18.066
+Trabalhei em "Analytics"
+ao longo da minha carreira,
+
+00:01:18.466 --> 00:01:20.833
+primeiro em consultoria,
+depois em empresas de tecnologia,
+
+00:01:20.899 --> 00:01:22.766
+como Facebook e Microsoft.
+
+00:01:23.233 --> 00:01:25.499
+Em todos os lugares que trabalhei,
+acabei ensinando
+
+00:01:25.533 --> 00:01:28.499
+habilidades básicas de análise
+de dados para analistas talentosos.
+
+00:01:28.833 --> 00:01:30.099
+E realmente me frustrou
+
+00:01:30.166 --> 00:01:31.999
+que todo o conteúdo SQL
+que eu encontrei estivesse
+
+00:01:32.066 --> 00:01:35.133
+voltado para desenvolvedores
+de software em vez de analistas.
+
+00:01:35.933 --> 00:01:38.266
+Este curso integra
+tudo o que aprendi
+
+00:01:38.333 --> 00:01:40.099
+com o ensino de SQL
+em trabalhos anteriores,
+
+00:01:40.166 --> 00:01:41.999
+nos bootcamps de Data Science
+
+00:01:42.133 --> 00:01:44.433
+e sua importância
+em outros tutoriais produzidos.
+
+00:01:44.499 --> 00:01:45.499
+Espero que goste.
+
+00:01:45.999 --> 00:01:48.366
+Então, você aprenderá
+visualização de dados
+
+00:01:48.533 --> 00:01:50.566
+-e Tableau com o Mat.
+-Obrigado.
+
+00:01:50.766 --> 00:01:51.766
+Olá, sou o Mat.
+
+00:01:52.033 --> 00:01:56.166
+No passado, eu era físico,
+neurocientista e cientista de dados.
+
+00:01:56.333 --> 00:01:59.499
+Estou trabalhando com dados
+por quase 15 anos,
+
+00:01:59.566 --> 00:02:02.899
+iniciando minha jornada ao simular
+sistemas físicos no Excel.
+
+00:02:03.233 --> 00:02:04.233
+Neste programa,
+
+00:02:04.299 --> 00:02:06.633
+abordarei uma das habilidades mais
+importantes de que você precisará
+
+00:02:06.699 --> 00:02:08.633
+para compartilhar seus resultados
+com os outros.
+
+00:02:08.699 --> 00:02:09.966
+Nós usaremos o Tableau.
+
+00:02:10.033 --> 00:02:11.533
+É um aplicativo padrão do setor
+
+00:02:11.599 --> 00:02:14.066
+para criar
+visualizações interativas incríveis.
+
+00:02:14.099 --> 00:02:15.233
+Vejo você na aula.
+
+00:02:15.933 --> 00:02:16.966
+E eu sou Josh.
+
+00:02:17.033 --> 00:02:19.999
+Estarei aqui para ajudá-lo
+desde o início até a formatura.
+
+00:02:20.299 --> 00:02:23.233
+Tenho ministrado cursos
+de introdução à estatística
+
+00:02:23.299 --> 00:02:26.966
+e aulas de nível avançado voltadas
+à programação de computadores
+
+00:02:27.033 --> 00:02:29.933
+e ciência de dados
+na Universidade do Colorado Denver
+
+00:02:29.999 --> 00:02:31.266
+nos últimos anos.
+
+00:02:31.333 --> 00:02:33.633
+Também tenho
+uma série de cargos no setor
+
+00:02:33.766 --> 00:02:36.566
+que vão de analista de marketing
+e cientista de dados
+
+00:02:36.699 --> 00:02:39.566
+a engenheiro de Machine Learning
+e bioestatístico.
+
+00:02:39.966 --> 00:02:42.833
+Cada um desses cargos era voltado
+a ajudar as empresas
+
+00:02:42.899 --> 00:02:44.399
+a aproveitar os dados ao máximo.
+
+00:02:44.466 --> 00:02:46.299
+Seja fazendo
+rastreamento e relatórios
+
+00:02:46.366 --> 00:02:47.566
+de taxas de sucesso
+de medicamentos
+
+00:02:47.633 --> 00:02:49.299
+destinados a ajudar
+pessoas com câncer
+
+00:02:49.366 --> 00:02:52.166
+ou apenas criando robôs de bate-papo
+para irritar meus colegas,
+
+00:02:52.233 --> 00:02:55.266
+sempre fui apaixonado
+por dados e ensino.
+
+00:02:55.399 --> 00:02:57.866
+Mal posso esperar
+para ser seu guia nesta aventura.
+

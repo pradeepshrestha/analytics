@@ -1,0 +1,273 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Set Up the Database</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Query a Digital Music Store Database</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Project Introduction.html">01. Project Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Set Up the Database.html">02. Set Up the Database</a>
+    </li>
+    <li class="">
+      <a href="03. Checking Setup.html">03. Checking Setup</a>
+    </li>
+    <li class="">
+      <a href="04. Schema Match.html">04. Schema Match</a>
+    </li>
+    <li class="">
+      <a href="05. SQL Question Set 1.html">05. SQL: Question Set 1</a>
+    </li>
+    <li class="">
+      <a href="06. SQL Question Set 2.html">06. SQL: Question Set 2</a>
+    </li>
+    <li class="">
+      <a href="07. (Advanced) SQL Question Set 3.html">07. (Advanced) SQL: Question Set 3</a>
+    </li>
+    <li class="">
+      <a href="08. Different Date Functions for the Project.html">08. Different Date Functions for the Project</a>
+    </li>
+    <li class="">
+      <a href="09. Project Submission - IMPORTANT.html">09. Project Submission - IMPORTANT</a>
+    </li>
+    <li class="">
+      <a href="10. Common Mistakes.html">10. Common Mistakes</a>
+    </li>
+    <li class="">
+      <a href="Project Description - SQL Project.html">Project Description - SQL Project</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - SQL Project.html">Project Rubric - SQL Project</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">02. Set Up the Database</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="lets-set-up-your-local-environment">Let's set up your local environment</h1>
+<p>It's totally fine to get started learning SQL here in the classroom, but the way to really master your skills is to get a local setup and learn to work within your own environment.  </p>
+<p>The next few problems are going to help make sure you are comfortable working locally.  Once you're set up you'll be able to use this workspace not only for this project…but BEYOND!  </p>
+<p>The environment we'll use is pretty quick to set up and hopefully you'll be up and running in no time :)</p>
+<p>All you'll need to do here is…</p>
+<ul>
+<li>Download your new database</li>
+<li>Download DB Browser for SQLite</li>
+</ul>
+<p>As soon as you have DB Broswer for SQLite connected to your new database you're ready for the next page!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="download-db-browser-for-sqlite">Download DB Browser for SQLite</h2>
+<p>There are many different database browsers that work with different types of databases. For this course, we'll be using the DB Browser for SQLite. The other browsers you may use will likely be very similar.</p>
+<p>DB Browser for SQLite can be downloaded here: <a href="http://sqlitebrowser.org/" target="_blank">http://sqlitebrowser.org/</a></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/db-browser.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="download-database">Download Database</h2>
+<p>You can download the database we will be using for this project from the bottom of the page.</p>
+<h2 id="connect-the-browser-to-the-database">Connect the Browser to the Database</h2>
+<p>Here are the steps:</p>
+<ul>
+<li>Open up DB Browser to SQLite</li>
+<li>Click on <em>Open Database</em></li>
+<li>Navigate to the Chinook.db file (probably in your downloads)</li>
+<li>Click on the <em>Execute SQL</em></li>
+<li>Start querying your data</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/setting-up-db-browser.gif" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="start-querying-your-data">Start Querying Your Data</h2>
+<p>The database Entity Relationship Diagram was provided in the previous concept, but you can also find it on the <a href="https://chinookdatabase.codeplex.com/" target="_blank">Chinook database homepage</a>.</p>
+<p>Once it looks like you have it all set up, you can start querying your database!  First, we could have a look at all the data from the <strong>Invoice</strong> table:</p>
+<pre><code>SELECT * FROM Invoice;</code></pre>
+<p>Your first query, AWESOME!</p>
+<p>Now check out what's in the <strong>Employee</strong> table.</p>
+<pre><code>SELECT * FROM Employee;</code></pre>
+<p><strong>Looks like you are ready to take on this PROJECT and the WORLD!</strong>  Everything you have been studying is going to come in handy now!</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="03. Checking Setup.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.3.0</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('02. Set Up the Database')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

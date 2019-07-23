@@ -1,0 +1,606 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profit &amp; Loss Statement</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Business Metrics</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Lesson Structure.html">02. Lesson Structure</a>
+    </li>
+    <li class="">
+      <a href="03. Key Performance Indicators.html">03. Key Performance Indicators</a>
+    </li>
+    <li class="">
+      <a href="04. Asking Data Questions.html">04. Asking Data Questions</a>
+    </li>
+    <li class="">
+      <a href="05. Business Process Flow.html">05. Business Process Flow</a>
+    </li>
+    <li class="">
+      <a href="06. Business Process Flow Marketing.html">06. Business Process Flow: Marketing</a>
+    </li>
+    <li class="">
+      <a href="07. Business Process Flow Growth.html">07. Business Process Flow: Growth</a>
+    </li>
+    <li class="">
+      <a href="08. Customer Journey.html">08. Customer Journey</a>
+    </li>
+    <li class="">
+      <a href="09. Marketing Funnel.html">09. Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="10. Click Through Rate.html">10. Click Through Rate</a>
+    </li>
+    <li class="">
+      <a href="11. Cost Per Click.html">11. Cost Per Click</a>
+    </li>
+    <li class="">
+      <a href="12. Cost Per Lead.html">12. Cost Per Lead</a>
+    </li>
+    <li class="">
+      <a href="13. Customer Acquisition Cost.html">13. Customer Acquisition Cost</a>
+    </li>
+    <li class="">
+      <a href="14. Optimizing Marketing Funnel.html">14. Optimizing Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="15. Cost Per Acquisition.html">15. Cost Per Acquisition</a>
+    </li>
+    <li class="">
+      <a href="16. Lifetime Value.html">16. Lifetime Value</a>
+    </li>
+    <li class="">
+      <a href="17. Solution for Life Time Value Quiz.html">17. Solution for Life Time Value Quiz</a>
+    </li>
+    <li class="">
+      <a href="18. Interpreting Life Time Value.html">18. Interpreting Life Time Value</a>
+    </li>
+    <li class="">
+      <a href="19. Sales Metrics.html">19. Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="20. Sales Funnel.html">20. Sales Funnel</a>
+    </li>
+    <li class="">
+      <a href="21. Total Bookings.html">21. Total Bookings</a>
+    </li>
+    <li class="">
+      <a href="22. Average Deal Size.html">22. Average Deal Size</a>
+    </li>
+    <li class="">
+      <a href="23. Average Time to Close.html">23. Average Time to Close</a>
+    </li>
+    <li class="">
+      <a href="24. Check For Understanding Sales Metrics.html">24. Check For Understanding: Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="25. Check For Understanding Marketing.html">25. Check For Understanding: Marketing</a>
+    </li>
+    <li class="">
+      <a href="26. Growth Metrics.html">26. Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="27. Engagement Metrics.html">27. Engagement Metrics</a>
+    </li>
+    <li class="">
+      <a href="28. Stickiness.html">28. Stickiness</a>
+    </li>
+    <li class="">
+      <a href="29. Churn Rate.html">29. Churn Rate</a>
+    </li>
+    <li class="">
+      <a href="30. Finance Metrics.html">30. Finance Metrics</a>
+    </li>
+    <li class="">
+      <a href="31. Profit  Loss Statement.html">31. Profit &amp; Loss Statement</a>
+    </li>
+    <li class="">
+      <a href="32. Solution to Quiz in PL Statement.html">32. Solution to Quiz in P&amp;L Statement</a>
+    </li>
+    <li class="">
+      <a href="33. Gross Margin.html">33. Gross Margin</a>
+    </li>
+    <li class="">
+      <a href="34. Contribution Margin.html">34. Contribution Margin</a>
+    </li>
+    <li class="">
+      <a href="35. Check For Understanding Finance and Growth Metrics.html">35. Check For Understanding: Finance and Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="36. Distribution of the Data.html">36. Distribution of the Data</a>
+    </li>
+    <li class="">
+      <a href="37. Grouping the Data.html">37. Grouping the Data</a>
+    </li>
+    <li class="">
+      <a href="38. Summary.html">38. Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">31. Profit & Loss Statement</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L1 31 Finance Profit And Loss Statement V1</p></h3>
+  <video controls>
+  <source src="31. L1 31 Finance Profit And Loss Statement V1--9Xz-v1xU9A.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="31. L1 31 Finance Profit And Loss Statement V1--9Xz-v1xU9A.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="zh-CN" src="31. L1 31 Finance Profit And Loss Statement V1--9Xz-v1xU9A.zh-CN.vtt" label="zh-CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="items-in-profit-and-loss-statement">Items in Profit and Loss Statement</h2>
+<p>The following list is a breakdown of the individual items within the Profit and Loss Statement.</p>
+<ul>
+<li><p>** Revenues**: The money a company makes from the sales of its products and services. </p></li>
+<li><p>** Cost of Goods Sold (COGS) or Cost of Sales**:<br />
+These are the direct costs the company incurs to develop the product or service being sold.</p></li>
+<li><p>** Gross Profit:**  The difference between the revenue earned and the costs summarized in COGS.<br />
+<br> ** Gross Profit  = Revenue - COGS**</p></li>
+<li><p>** Selling, General and Administrative expenses (SGAs):**  Includes the following expenses:</p>
+<ul>
+<li>Marketing, sale commissions</li>
+<li>Salaries for office staff</li>
+<li>Supplies and computer hardware</li>
+<li>Note:  Some companies list total operating expenses separately from SGAS while others treat them as synonymous with SGAS.</li></ul></li>
+<li><p>** Operating expenses**: Expenses incurred outside of direct manufacturing costs:</p>
+<ul>
+<li>Overhead costs</li>
+<li>Legal</li>
+<li>Rent</li>
+<li>Utilities</li>
+<li>Taxes</li>
+<li>Interest</li>
+<li>R&amp;D expenses. </li></ul></li>
+<li><p>** Total Operating Expenses** = Sum of SGAs and Operating expenses<br />
+<br> **  Total Operating Expenses= SGAs + Operating Expenses**</p></li>
+<li><p>** Operating Income**: The difference between Gross profit and Total operating expenses <br><br />
+** Operating Income = Gross Profit - Total Operating Expenses**</p>
+<ul>
+<li>Note: <strong>Operating Income</strong> is also referred to as <strong>Earnings Before Interest and Tax (EBIT)</strong></li></ul></li>
+<li><p>** Net Income:** Subtracting the Interest and Tax from Operating Income gives the Net Income<br />
+<br> ** Net Income = Operating Income - (Interest and Taxes)**</p></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<p>The following video will go through each of these line items in the Profit and Loss Statement or Income Statement. </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>PandLstatement V1</p></h3>
+  <video controls>
+  <source src="31. PandLstatement V1-UizlTZNR8TI.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="31. PandLstatement V1-UizlTZNR8TI.zh-CN.vtt" label="zh-CN">
+  <track default="true" kind="subtitles" srclang="en" src="31. PandLstatement V1-UizlTZNR8TI.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="quiz">Quiz</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>You are creating a Profit and Loss statement for a smoothie and juice bar named Smoothie Rocks. Please match the expenses to their correct P&amp;L statement category in the table below.</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Amount generated from selling 10,000 units.</p></button>
+  <button class="btn btn-primary"><p>Cost of buying fruits and vegetables</p></button>
+  <button class="btn btn-primary"><p>Rent for Shop</p></button>
+  <button class="btn btn-primary"><p>Cost of bottles and straws</p></button>
+  <button class="btn btn-primary"><p>Cost of furniture and computer</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Expense</p>
+      </th>
+      <th>
+        <p>Profit and Loss Statement category</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>Operating Expenses</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Selling, General and Administrative Expenses</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Gross Sales Revenue</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Cost of Goods Sold</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Cost of Goods Sold</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Expense</p>
+        </th>
+        <th>
+          <p>Profit and Loss Statement category</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Operating Expenses</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Rent for Shop</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Selling, General and Administrative Expenses</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Cost of furniture and computer</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Gross Sales Revenue</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Amount generated from selling 10,000 units.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Cost of Goods Sold</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Cost of buying fruits and vegetables</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Cost of Goods Sold</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Cost of bottles and straws</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Cost of Goods Sold</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Cost of buying fruits and vegetables</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Cost of Goods Sold</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Cost of bottles and straws</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>For the following quiz, please download the  ** SmoothieRock_PLStatementquiz** CSV file in the Resources below.  ** The file contains the P&amp;L Statement line items but are organized in random order. Please arrange them in the correct order to create the P&amp;L statement. **Please use the CSV file to answer the quiz question below.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>The owner of Smoothie Rocks wants you to prepare a Profit and Loss Statement for the company. Download the list of expenses and basic information provided by the SmoothieRocks owner and complete a Profit and Loss Statement for the owner. After creating the P&amp;L statement, match the values with the P&amp;L statement category.</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Gross Profit</p></button>
+  <button class="btn btn-primary"><p>Cost of Goods Sold</p></button>
+  <button class="btn btn-primary"><p>Selling, General and Administrative expenses</p></button>
+  <button class="btn btn-primary"><p>Total Operating Expenses</p></button>
+  <button class="btn btn-primary"><p>Operating Income</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>P&amp;L statement category</p>
+      </th>
+      <th>
+        <p>Value</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>$164,466</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>$335,534</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>$53,816</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>$47,243</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>$110,650 </p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>P&amp;L statement category</p>
+        </th>
+        <th>
+          <p>Value</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>$164,466</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Gross Profit</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>$335,534</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Cost of Goods Sold</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>$53,816</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Total Operating Expenses</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>$47,243</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Selling, General and Administrative expenses</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>$110,650 </p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Operating Income</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="recap">Recap:</h2>
+<ul>
+<li><p>** Profit and Loss Statement:** (P&amp;L statement) is also called income statement. It is one type of financial statement that shows a company's performance and financial position and is prepared at the end of each quarter or an annual basis.</p></li>
+<li><p>Items needed to create the P&amp;L statement are:</p>
+<ul>
+<li><p>** Revenue**: Money that a company makes from the sales of its products and services</p></li>
+<li><p>** Cost of Goods Sold (COGS) OR Cost of Sales:** Direct costs the company incurs to develop and build the product or service being sold</p></li>
+<li><p>** Gross Profit** = Revenue - Cost of Goods Sold</p></li>
+<li><p>** Selling, General and Administrative expenses**: Marketing, sale commissions and salaries for office staff, supplies, computers, legal expenses, rent, utilities, taxes and interests on any loans.  SG&amp;A typically exclude research and development expenses.</p></li>
+<li><p>** Total Operating Expenses**: Expenses incurred outside of direct manufacturing costs</p></li>
+<li><p>** Operating Income/ Operating Profit/ EBIT** = Gross Profit - Total Operating Expenses</p></li>
+<li><p>** Net Income/ Net Profit ** = Operating Income - (Interest expense + Tax expense)</p></li></ul></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="additional-resources">Additional Resources</h2>
+<p>Check out the following pages to learn more about P&amp;L statement across different types of industries.</p>
+<ol>
+<li><a href="https://blog.projectionhub.com/what-is-cost-of-goods-sold-for-a-service-business/" target="_blank">What is COGS for a service business?</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Income_statement" target="_blank">Wikipedia page on P&L Statement</a></li>
+<li><a href="https://corporatefinanceinstitute.com/resources/knowledge/accounting/profit-and-loss-statement-pl/" target="_blank">More information on P&L statement</a></li>
+<li><a href="https://www.investopedia.com/dictionary/" target="_blank">Investopedia</a> is a fantastic dictionary for business terms. </li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="32. Solution to Quiz in PL Statement.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.3.0</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('31. Profit &amp; Loss Statement')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

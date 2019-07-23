@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.050 --> 00:00:05.360
+Let's go over a top-down model that focuses on bookings for sales person.
+
+00:00:05.360 --> 00:00:08.265
+The model is divided into four portions here.
+
+00:00:08.265 --> 00:00:13.270
+We're starting with an assumptions about the dollar amount we need in bookings.
+
+00:00:14.600 --> 00:00:17.910
+Then we figured out how much time and
+
+00:00:17.910 --> 00:00:21.240
+effort it would require to get to generate those bookings.
+
+00:00:21.240 --> 00:00:23.415
+Let's look at this more closely.
+
+00:00:23.415 --> 00:00:25.620
+We start with an assumption about
+
+00:00:25.620 --> 00:00:30.240
+how productive this sales person who we are going to hire will be.
+
+00:00:30.240 --> 00:00:34.650
+We measure this in terms of the number of opportunities being generated,
+
+00:00:34.650 --> 00:00:38.100
+and then we look at how much revenue on average
+
+00:00:38.100 --> 00:00:42.085
+would this person generate per unit and per an opportunity.
+
+00:00:42.085 --> 00:00:45.160
+We use these assumptions to arrive at
+
+00:00:45.160 --> 00:00:50.365
+the average size of opportunity we can expect the sales person to generate.
+
+00:00:50.365 --> 00:00:53.695
+Then we make assumptions about how much time and
+
+00:00:53.695 --> 00:00:57.220
+effort it will take us to arrive at those bookings.
+
+00:00:57.220 --> 00:01:00.940
+For this, we project out when we will hire the person.
+
+00:01:00.940 --> 00:01:04.180
+Then based on our sales historical data,
+
+00:01:04.180 --> 00:01:08.290
+we come up with the assumption that a new sales member would take
+
+00:01:08.290 --> 00:01:13.930
+X number of months to get up to speed to start generating those leads and bookings.
+
+00:01:13.930 --> 00:01:20.230
+Then finally, we use the ramp time and the average size of opportunity assumptions,
+
+00:01:20.230 --> 00:01:25.390
+to project out when he will see the bookings that we expect this person to generate.
+
+00:01:25.390 --> 00:01:32.260
+As you can see, we get to the final bookings number for each sales team member and month,
+
+00:01:32.260 --> 00:01:36.050
+by starting with our bookings in the more broad sense and
+
+00:01:36.050 --> 00:01:40.400
+then narrowing down to each person and month.
+

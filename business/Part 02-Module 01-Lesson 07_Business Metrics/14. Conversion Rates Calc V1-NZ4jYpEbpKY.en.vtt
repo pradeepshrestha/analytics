@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.815
+As you can see in this worksheet,
+
+00:00:01.815 --> 00:00:04.140
+we've captured the steps in the funnel,
+
+00:00:04.140 --> 00:00:08.480
+with some additional customer touch points where you want the customer to do
+
+00:00:08.480 --> 00:00:13.220
+something once they arrive on your website, download a brochure,
+
+00:00:13.220 --> 00:00:16.020
+share the email, add items to the cart,
+
+00:00:16.020 --> 00:00:18.720
+[inaudible] one where their denominator,
+
+00:00:18.720 --> 00:00:24.450
+is the number of original count of people who arrive at your website; the impressions.
+
+00:00:24.450 --> 00:00:28.400
+Second, where the denominator is the number of people who
+
+00:00:28.400 --> 00:00:32.600
+completed the Call to Action at the previous level in the panel.
+
+00:00:32.600 --> 00:00:34.940
+Let's first calculate the conversion rates based
+
+00:00:34.940 --> 00:00:37.195
+on the number of visitors to the website.
+
+00:00:37.195 --> 00:00:38.505
+So, we have a column;
+
+00:00:38.505 --> 00:00:40.590
+conversion rates based on impression.
+
+00:00:40.590 --> 00:00:42.860
+Here, it shows you the formula that I'm using,
+
+00:00:42.860 --> 00:00:48.635
+and you're going with B4 divided by B3.
+
+00:00:48.635 --> 00:00:50.450
+We're going to just leave this as,
+
+00:00:50.450 --> 00:00:52.550
+well, so you can see.
+
+00:00:52.550 --> 00:01:02.670
+Here is B5 divided by B3 and B6 divided by B3.
+
+00:01:02.670 --> 00:01:06.840
+So, you can see that 43 percent roughly of
+
+00:01:06.840 --> 00:01:11.265
+the people who saw the actual add, downward the brochure.
+
+00:01:11.265 --> 00:01:17.070
+Of them, 19 percent arrived on the site,
+
+00:01:17.070 --> 00:01:18.870
+added items to the cart.
+
+00:01:18.870 --> 00:01:24.590
+So, eight percent the people who arrived in the website actually purchased the item.
+
+00:01:24.590 --> 00:01:26.900
+Now, let's calculate the conversion rates,
+
+00:01:26.900 --> 00:01:29.840
+based on the number of people who completed
+
+00:01:29.840 --> 00:01:33.625
+the Call to Action at the previous level in funnel.
+
+00:01:33.625 --> 00:01:35.070
+I have the formula here,
+
+00:01:35.070 --> 00:01:36.975
+so that you can track what I'm doing.
+
+00:01:36.975 --> 00:01:41.220
+Here, this will be B4 divided by B3,
+
+00:01:41.220 --> 00:01:43.140
+because that's the original step.
+
+00:01:43.140 --> 00:01:44.790
+So, people arrive in the website,
+
+00:01:44.790 --> 00:01:46.380
+and then they download of the brochure,
+
+00:01:46.380 --> 00:01:51.945
+43 percent of that matches what's in the conversion rate based on the impression.
+
+00:01:51.945 --> 00:01:55.530
+Next, we're going to go B5 is
+
+00:01:55.530 --> 00:01:59.465
+divided by the number of people who downloaded the brochure,
+
+00:01:59.465 --> 00:02:03.810
+and the number of people who purchased the item,
+
+00:02:03.810 --> 00:02:07.190
+based on the number of people who added the items.
+
+00:02:07.190 --> 00:02:12.910
+So, let's reduce the number of decimals here.
+
+00:02:12.910 --> 00:02:16.670
+So, we can see this indicates that 45 percent of
+
+00:02:16.670 --> 00:02:21.010
+the people who download the brochure added their items to the cart.
+
+00:02:21.010 --> 00:02:25.330
+Of those, 39 percent actually purchased the item.
+

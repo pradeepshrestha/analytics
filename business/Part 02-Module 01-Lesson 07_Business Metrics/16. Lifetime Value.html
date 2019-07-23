@@ -1,0 +1,372 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lifetime Value</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Business Metrics</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Lesson Structure.html">02. Lesson Structure</a>
+    </li>
+    <li class="">
+      <a href="03. Key Performance Indicators.html">03. Key Performance Indicators</a>
+    </li>
+    <li class="">
+      <a href="04. Asking Data Questions.html">04. Asking Data Questions</a>
+    </li>
+    <li class="">
+      <a href="05. Business Process Flow.html">05. Business Process Flow</a>
+    </li>
+    <li class="">
+      <a href="06. Business Process Flow Marketing.html">06. Business Process Flow: Marketing</a>
+    </li>
+    <li class="">
+      <a href="07. Business Process Flow Growth.html">07. Business Process Flow: Growth</a>
+    </li>
+    <li class="">
+      <a href="08. Customer Journey.html">08. Customer Journey</a>
+    </li>
+    <li class="">
+      <a href="09. Marketing Funnel.html">09. Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="10. Click Through Rate.html">10. Click Through Rate</a>
+    </li>
+    <li class="">
+      <a href="11. Cost Per Click.html">11. Cost Per Click</a>
+    </li>
+    <li class="">
+      <a href="12. Cost Per Lead.html">12. Cost Per Lead</a>
+    </li>
+    <li class="">
+      <a href="13. Customer Acquisition Cost.html">13. Customer Acquisition Cost</a>
+    </li>
+    <li class="">
+      <a href="14. Optimizing Marketing Funnel.html">14. Optimizing Marketing Funnel</a>
+    </li>
+    <li class="">
+      <a href="15. Cost Per Acquisition.html">15. Cost Per Acquisition</a>
+    </li>
+    <li class="">
+      <a href="16. Lifetime Value.html">16. Lifetime Value</a>
+    </li>
+    <li class="">
+      <a href="17. Solution for Life Time Value Quiz.html">17. Solution for Life Time Value Quiz</a>
+    </li>
+    <li class="">
+      <a href="18. Interpreting Life Time Value.html">18. Interpreting Life Time Value</a>
+    </li>
+    <li class="">
+      <a href="19. Sales Metrics.html">19. Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="20. Sales Funnel.html">20. Sales Funnel</a>
+    </li>
+    <li class="">
+      <a href="21. Total Bookings.html">21. Total Bookings</a>
+    </li>
+    <li class="">
+      <a href="22. Average Deal Size.html">22. Average Deal Size</a>
+    </li>
+    <li class="">
+      <a href="23. Average Time to Close.html">23. Average Time to Close</a>
+    </li>
+    <li class="">
+      <a href="24. Check For Understanding Sales Metrics.html">24. Check For Understanding: Sales Metrics</a>
+    </li>
+    <li class="">
+      <a href="25. Check For Understanding Marketing.html">25. Check For Understanding: Marketing</a>
+    </li>
+    <li class="">
+      <a href="26. Growth Metrics.html">26. Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="27. Engagement Metrics.html">27. Engagement Metrics</a>
+    </li>
+    <li class="">
+      <a href="28. Stickiness.html">28. Stickiness</a>
+    </li>
+    <li class="">
+      <a href="29. Churn Rate.html">29. Churn Rate</a>
+    </li>
+    <li class="">
+      <a href="30. Finance Metrics.html">30. Finance Metrics</a>
+    </li>
+    <li class="">
+      <a href="31. Profit  Loss Statement.html">31. Profit &amp; Loss Statement</a>
+    </li>
+    <li class="">
+      <a href="32. Solution to Quiz in PL Statement.html">32. Solution to Quiz in P&amp;L Statement</a>
+    </li>
+    <li class="">
+      <a href="33. Gross Margin.html">33. Gross Margin</a>
+    </li>
+    <li class="">
+      <a href="34. Contribution Margin.html">34. Contribution Margin</a>
+    </li>
+    <li class="">
+      <a href="35. Check For Understanding Finance and Growth Metrics.html">35. Check For Understanding: Finance and Growth Metrics</a>
+    </li>
+    <li class="">
+      <a href="36. Distribution of the Data.html">36. Distribution of the Data</a>
+    </li>
+    <li class="">
+      <a href="37. Grouping the Data.html">37. Grouping the Data</a>
+    </li>
+    <li class="">
+      <a href="38. Summary.html">38. Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">16. Lifetime Value</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>L1 16 Lifetime Value V2</p></h3>
+  <video controls>
+  <source src="16. L1 16 Lifetime Value V2-Vi2IqiDaFKI.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="16. L1 16 Lifetime Value V2-Vi2IqiDaFKI.zh-CN.vtt" label="zh-CN">
+  <track default="true" kind="subtitles" srclang="en" src="16. L1 16 Lifetime Value V2-Vi2IqiDaFKI.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <hr />
+<p>This next video will describe in detail how to calculate the Lifetime Value.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>LTV Calculation V1</p></h3>
+  <video controls>
+  <source src="16. LTV Calculation V1-ZthlIc8wj2s.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="16. LTV Calculation V1-ZthlIc8wj2s.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="zh-CN" src="16. LTV Calculation V1-ZthlIc8wj2s.zh-CN.vtt" label="zh-CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>** Check out the following websites to read up on additional ways to calculate Lifetime Value:**<br />
+<br><br></p>
+<ol>
+<li><p><a href="https://neilpatel.com/blog/how-to-calculate-lifetime-value/" target="_blank">Multiple ways to calculate LTV</a></p></li>
+<li><p><a href="https://www.intechnic.com/blog/how-to-calculate-customer-lifetime-value-clv-to-market-to-high-value-customers/" target="_blank">Identifying your High value customers</a></p></li>
+<li><p><a href="https://abovecrowd.wordpress.com/2012/09/04/the-dangerous-seduction-of-the-lifetime-value-ltv-formula/" target="_blank">Using Cost of capital</a></p></li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="quiz">Quiz</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Calculate the Lifetime Value for Smoothie Rocks given the following information. <br />
+An average purchase cycle of 2 weeks, with total sale revenue of $8 per order. The average customer order 5 orders per purchase cycle. The Cost per Acquisition is $7.50 and we expect to retain the customer for 3 years.</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1540231571310" name="766453" id="a1540231571310">
+        <label for="a1540231571310"><p>$390</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1540231584772" name="766453" id="a1540231584772">
+        <label for="a1540231584772"><p>$975</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1540231596577" name="766453" id="a1540231596577">
+        <label for="a1540231596577"><p>$195</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1540231611470" name="766453" id="a1540231611470">
+        <label for="a1540231611470"><p>Can't be calculated based on the information provided.</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    $195
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="recap">Recap:</h2>
+<ul>
+<li>** Lifetime Value (LTV)** = Average Sale x Number of Repeat Sales x Expected Retention Time x Profit Margin</li>
+<li>Items needed to calculate Life Time Value:<ul>
+<li>** Purchase Cycle**:  The time increment adopted for business calculations</li>
+<li>** Total Sale Revenue Per Cycle**:  Revenue earned from customer per purchase cycle </li>
+<li>** Number of Sales Per Purchase Cycle**:  Number of times customer buys during the purchase cycle</li>
+<li>** Cost Per Acquisition**:  (Cost of marketing and sales)/ number of new leads </li>
+<li>** Expected Retention Time**: Amount of time (measured in purchasing cycles) you expect to retain the customer.</li>
+<li>** Average Sale Revenue**: (Total customer revenue/ Number of purchases in the cycle) OR Average revenue received from the customer per transaction during the cycle</li>
+<li>** Profit Margin Per Customer**: ((Average Sale - Average Cost of Sale) / Average Sale)</li></ul></li>
+<li>LTV takes into account future uncertainty around sales and is a good estimated guess about the future actions of the customer. It is important to use LTV as a tool to inform business strategy, and not a business strategy.</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="17. Solution for Life Time Value Quiz.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.3.0</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('16. Lifetime Value')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
